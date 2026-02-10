@@ -65,8 +65,9 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.6.3</version>
                 <configuration>
+                    <skip>false</skip>
                     <mainClass>dhbw.trasima.trasima_aufgabe08.http.TrasimaHttpServer</mainClass>
                 </configuration>
             </plugin>

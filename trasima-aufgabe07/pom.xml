@@ -58,6 +58,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.6.3</version>
                 <configuration>
+                    <skip>false</skip>
                     <mainClass>dhbw.trasima.trasima_aufgabe07.server.TrasimaGrpcServer</mainClass>
                 </configuration>
             </plugin>
