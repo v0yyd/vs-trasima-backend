@@ -29,7 +29,7 @@ public class SimulationClient {
         try {
             for (int i = 0; i < numberOfVehicles; i++) {
                 // Ein gRPC-Publisher für jedes Fahrzeug
-                PositionPublisher publisher = new PositionPublisher("localhost", 50051);
+                PositionPublisher publisher = new PositionPublisher("192.168.110.7", 50051);
                 publishers.add(publisher);
 
                 // Das eigentliche Fahrzeug-Objekt aus trasima_bis_5
