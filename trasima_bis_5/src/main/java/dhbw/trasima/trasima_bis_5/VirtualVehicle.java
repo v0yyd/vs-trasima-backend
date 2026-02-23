@@ -22,7 +22,7 @@ public class VirtualVehicle implements Runnable {
         System.out.println("V2-" + id + " gestartet.");
 
         long startTime = System.currentTimeMillis();
-        long runtime = 10000;
+        long runtime = 30_000;
 
         while (System.currentTimeMillis() - startTime < runtime) {
             move();
